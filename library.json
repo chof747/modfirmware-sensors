@@ -1,0 +1,20 @@
+{
+  "name": "ModFirmwarePowerMgmt",
+  "version": "0.0.1",
+  "description": "Power Management components of a modular firmware",
+  "platforms": [
+    "espressif8266",
+    "espressif32"
+  ],
+  "dependencies": [
+    {
+        "name": "ModFirmwareBase",
+        "version": "https://github.com/chof747/modfirmware-base.git"
+    },
+    {
+        "name": "Adafruit ADS1X15",
+        "owner": "adafruit",
+        "version": "^2.5.0"
+    }
+]
+}
